@@ -13,3 +13,10 @@ Das ist das README.md File unseres Repositories. Die Dateienendung .md steht fü
 
 
 ### Teil 1 - What is the Internet
+
+- das Internet wurde in den 1970er-Jahren entwickelt
+- Motivation: Schaffung eines dezentralen Netwerks, das auch nach einem Atomschalgs noch funktioniert (Kontext des Kalten Krieges)
+- Funktionsweise: Paketvermittlung (*Packet Switching*) - Nachrichten bzw. Dateien werden in kleine Pakete aufgeteilt und unabhängig voneinander über das Netzwerk verschickt
+- Internet: das Netz der Netze - besteht aus vielen kleineren Netzen unterschiedlicher Internetanbieter (*Internet Service Provider - ISP*, z.B. : Salzburg AG, Magenta, A1, ...)
+
+### Teil 2
