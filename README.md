@@ -19,4 +19,26 @@ Das ist das README.md File unseres Repositories. Die Dateienendung .md steht fü
 - Funktionsweise: Paketvermittlung (*Packet Switching*) - Nachrichten bzw. Dateien werden in kleine Pakete aufgeteilt und unabhängig voneinander über das Netzwerk verschickt
 - Internet: das Netz der Netze - besteht aus vielen kleineren Netzen unterschiedlicher Internetanbieter (*Internet Service Provider - ISP*, z.B. : Salzburg AG, Magenta, A1, ...)
 
-### Teil 2
+### Teil 2 - The Internet: Wires, Cables and WiFi
+
+Informationen werden im Internet als Bits übertragen. Bits haben zwei Werte: 0 und 1. 8 Bits zusammengefasst ergeben ein Byte. Mit einem Byte kann man 256 verschiedene Werte speichern (2^8).
+
+Bits können über verschiedene Übertragungsmedien zwischen Computern versendet werden. Die Anzahl der übertragenden Bits pro Sekunde wird als **Brandbreite** bezeichnet. Bei einer Brandbreite von 300Mbit/s können beispielsweise 300 Millionen Bit pro Sekunde über die Leitung laufen. Übertragungsmedien können sein:
+
+**1. Elektrizität / Kupferdraht (Ethernet)**
+
+- billig
+- einfach in der Verabeitung
+- weit verbereitet
+- hohe Verluste über mittlere und lange Distanzen (hunderte Meter)
+
+**2. Licht / Glasfaserkabel**
+
+- schnelle Übertragung
+- verlustfrei
+- geeignet für Ozeankabel
+- teuer und schwierig in der Verarbeitung
+
+**3 Funk / Radiowellen**
+
+- hoher Komfort, Internet überall
