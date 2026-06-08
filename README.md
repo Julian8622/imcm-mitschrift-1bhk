@@ -59,3 +59,4 @@ Bits können über verschiedene Übertragungsmedien zwischen Computern versendet
     - im Text vorkommende Suchbegriffe (*Keywords*)
     - Links die auf meine Seite zeigen (*Blacklinks*)
 - Die Suchergebnisse werden an die Benutzer*innen angepasst! D.h. nicht jede/r sieht die gleichen Informationen, selbst wenn sie idente Suchanfragen durchführen!
+-[Startpage] (https://www.startpage.com/de/) ist eine datensparsame Suchmaschine, die ihren Benutzer*innen die Verwendung von Google ohne Tracking oder Personalisierung erlaubt
