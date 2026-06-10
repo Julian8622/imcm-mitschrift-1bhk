@@ -7,17 +7,16 @@ Das ist das README.md File unseres Repositories. Die Dateienendung .md steht fü
 - Yet Another Markup Language (YAML, YML)
 
 > **Achtung!**
- Die Abkürzung ML steht nicht immer für *Markup Language*, sie kann auch *Machine Learning* heißen.
+> Die Abkürzung ML steht nicht immer für _Markup Language_, sie kann auch _Machine Learning_ heißen.
 
 ## Playlist zur Funktionsweise des Internets
-
 
 ### Teil 1 - What is the Internet
 
 - das Internet wurde in den 1970er-Jahren entwickelt
 - Motivation: Schaffung eines dezentralen Netwerks, das auch nach einem Atomschalgs noch funktioniert (Kontext des Kalten Krieges)
-- Funktionsweise: Paketvermittlung (*Packet Switching*) - Nachrichten bzw. Dateien werden in kleine Pakete aufgeteilt und unabhängig voneinander über das Netzwerk verschickt
-- Internet: das Netz der Netze - besteht aus vielen kleineren Netzen unterschiedlicher Internetanbieter (*Internet Service Provider - ISP*, z.B. : Salzburg AG, Magenta, A1, ...)
+- Funktionsweise: Paketvermittlung (_Packet Switching_) - Nachrichten bzw. Dateien werden in kleine Pakete aufgeteilt und unabhängig voneinander über das Netzwerk verschickt
+- Internet: das Netz der Netze - besteht aus vielen kleineren Netzen unterschiedlicher Internetanbieter (_Internet Service Provider - ISP_, z.B. : Salzburg AG, Magenta, A1, ...)
 
 ### Teil 2 - The Internet: Wires, Cables and WiFi
 
@@ -44,19 +43,32 @@ Bits können über verschiedene Übertragungsmedien zwischen Computern versendet
 - hoher Komfort, Internet überall
 
 ### Teil 3 - The Internet: IP-Addresses & DNS
+
 - Protokolle sind die Regeln der Kommunikation
 - eines der wichtigsten Protokolle im Internet ist das Internet Protocol (IP)
 - jedes Gerät im Internet hat zumindest eine (eindeutige) IP-Adresse, viele Geräte haben aber eine externe IP (ähnlich wie die Hausnummer) und eine internet IP (ähnlich wie die Raumnummer)
-- das *Domain Name System* (DNS) übersetzt menschenlesbare Domainnamen (z.b.: www.google.com) in IP-Adressen
+- das _Domain Name System_ (DNS) übersetzt menschenlesbare Domainnamen (z.b.: www.google.com) in IP-Adressen
 - DNS-Server führen Tabellen mit Domainnamen und den entsprechenden IP-Adressen
 
-### Teil 8 -  The Internet: How Search Works
+### Teil 4 - The Internet: Packets, Routing & Relability
 
-- Suchmaschinen-Bots (*Crawler*) durchstreichen ständig das WWW und katalogisieren Websites. Der entstehende Katalog wird auch **Index** genannt.
-- Wenn wir einen Suchbegriff bei Google (oder einer anderen *Search Engine*) eingeben, wird NICHT das WWW dursucht, sondern lediglisch der zuvor erstellte Index
+- Über das Internet versendete Daten werden in Pakete aufgeteilt
+- einzelne PAkete haben eine Größe von 1,5kB. D.h. ein Foto mir einer Größe von 10MB wird in 6700 Pakete aufgeteiltm bevor es über das Internet versendet wird
+- Pakete können untershciedliche Routen durch das Internet nehmen. Die Route wird je nach Auslastung, Störungen etc. durch spezielle Computer - die Router- dynamisch bestimmt
+- jedes Paket enthäöt die Quell- und Ziel-IP_Adresse! sowie eine eindeutige Paketnummer
+- das _Transmisssion Control Protocoll_ (TCP) prüft am Ziel, ob alle Pakete einer Übertragung angekommen sind, falls Pakete fehlen fordert es diese erneut vom vom Absender an.
+  -TCP und IP bilden gemeinsam das Rückrat des Internet. Man spricht auch von einem IP/TPS Models.
+
+### Playlist zur Funktionsweise des Internets
+
+[TCP-IP-Model](assets/https___miro.medium.com_v2_resize_fit_720_format_webp_1_g1GzSjM5-J3aN2wjVz6qKA.png)
+
+### Teil 8 - The Internet: How Search Works
+
+- Suchmaschinen-Bots (_Crawler_) durchstreichen ständig das WWW und katalogisieren Websites. Der entstehende Katalog wird auch **Index** genannt.
+- Wenn wir einen Suchbegriff bei Google (oder einer anderen _Search Engine_) eingeben, wird NICHT das WWW dursucht, sondern lediglisch der zuvor erstellte Index
 - Suchergebnisse werdenauf Basis eines (geheimen) Algorithmus geranked - Ergebnisse, die weiter oben stehen, werden öfter angeklickt
 - Einfluss auf das Ranking haben u.a.:
-    - im Text vorkommende Suchbegriffe (*Keywords*)
-    - Links die auf meine Seite zeigen (*Blacklinks*)
-- Die Suchergebnisse werden an die Benutzer*innen angepasst! D.h. nicht jede/r sieht die gleichen Informationen, selbst wenn sie idente Suchanfragen durchführen!
--[Startpage] (https://www.startpage.com/de/) ist eine datensparsame Suchmaschine, die ihren Benutzer*innen die Verwendung von Google ohne Tracking oder Personalisierung erlaubt
+  - im Text vorkommende Suchbegriffe (_Keywords_)
+  - Links die auf meine Seite zeigen (_Blacklinks_)
+- Die Suchergebnisse werden an die Benutzer*innen angepasst! D.h. nicht jede/r sieht die gleichen Informationen, selbst wenn sie idente Suchanfragen durchführen! -[Startpage] (https://www.startpage.com/de/) ist eine datensparsame Suchmaschine, die ihren Benutzer*innen die Verwendung von Google ohne Tracking oder Personalisierung erlaubt
