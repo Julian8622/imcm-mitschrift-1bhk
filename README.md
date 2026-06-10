@@ -74,6 +74,12 @@ Bits können über verschiedene Übertragungsmedien zwischen Computern versendet
   > - **4xx** - Clientfehler (z.b. 404 - _Page not Found_)
   > - **5xx** - Serverfehler 💀🌹👿
 
+- HTTP-Anfragen werden immer mit einer **HTTP-Methode** übertragen
+- Date (HTML-Seiten, Bilder, Videos, ...) werden mit Get-Anfragen angefordert
+- Benutzereingaben (z.b. aus Formularfeldern z.b. Passwort, Datei-Uploads, ...) werden mit POST-Anfragen verschlüsselt versendet.
+- es gibt auch adnere HTTP-Methoden. Diese lernen wir aber erst später
+- HTTP-Anfragen und Antworten können auch **Cookies** erhalten. Cookies sind kleine Textdateien, die aus Schlüssel-Wert-Paaren (_key-value-pairs_) bestehen. Sie werden bejder Anfrage vom Client mitgesendet und ermöglichen so u.a. die Identifikation einzelner Nutzer.
+
 ### Playlist zur Funktionsweise des Internets
 
 [TCP-IP-Model](assets/https___miro.medium.com_v2_resize_fit_720_format_webp_1_g1GzSjM5-J3aN2wjVz6qKA.png)
